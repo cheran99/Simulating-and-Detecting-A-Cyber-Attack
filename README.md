@@ -21,11 +21,27 @@ In this digital world, it is critical to detect and analyse cyber threats so tha
 - Nessus
 - Wireshark
 - Splunk
-- Kali VM
-- Ubuntu VM
+- Kali Linux VM (attack machine)
+- Ubuntu VM (target machine)
 
 ## Project Setup 
 
+### Prerequisites 
+- Kali Linux VM - for running Metasploit, Burp Suite, and Nessus
+- Ubuntu VM - target system for attacks
+- Network - NAT or Bridged Adapter
+
+Use platforms like VMWare or VirtualBox to install and run the virtual machines.
+
+### Installation
+
+#### Kali Linux VM:
+1. Install Metasploit:
+   - Open Terminal and type the following commands:
+     ```
+     sudo apt-get update && apt-get upgrade -y
+     sudo apt install metasploit-framework
+     ```
 
 
 
