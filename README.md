@@ -42,6 +42,23 @@ Use platforms like VMWare or VirtualBox to install and run the virtual machines.
      sudo apt-get update && apt-get upgrade 
      sudo apt install metasploit-framework
      ```
+2. Install Burp Suite:
+   - Run the following command in Terminal:
+     ```
+     sudo apt install burpsuite
+     ```
+3. Install Nessus:
+   - Go to the following link: <a href="https://www.tenable.com/products/nessus/nessus-essentials?source=post_page-----3a590489c18e--------------------------------">Tenable Nessus® Essentials</a>
+   - Fill in your full name and email under "Register for Activation Code".
+   - You will receive an email with the activation code and be redirected to the download page:
+     ![image](https://github.com/user-attachments/assets/edbc1d2a-50b9-4ac4-825f-2dedfc7daf32)
+   - Select the latest version for Nessus and "Linux-Debian-amd64" for the platform as shown above.
+   - You can then download Nessus using the curl command in Terminal:
+     ```
+     curl --request GET \
+       --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.8.3-debian10_amd64.deb' \
+       --output 'Nessus-10.8.3-debian10_amd64.deb'
+     ```
 
 
 
