@@ -82,7 +82,7 @@ Use platforms like VMWare or VirtualBox to install and run the virtual machines.
 
 #### Ubuntu VM:
 Install Splunk:
-- 
+- hjhnj
 
      
 
