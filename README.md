@@ -59,6 +59,27 @@ Use platforms like VMWare or VirtualBox to install and run the virtual machines.
        --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.8.3-debian10_amd64.deb' \
        --output 'Nessus-10.8.3-debian10_amd64.deb'
      ```
+   - Run the following installation command:
+
+     `sudo dpkg -i Nessus-10.8.3-debian10_amd64.deb`
+   - Start Nessus using the following command:
+
+     `sudo systemctl start nessusd`
+   - To check if it is running, run the following command:
+
+     `sudo systemctl status nessusd`
+   - Open Nessus in the browser using the following link:
+
+     `https://localhost:8834`
+   - This will give you a warning. Accept the risk and continue.
+   - You will then be directed to the Nessus page:
+     ![image](https://github.com/user-attachments/assets/d2491998-c179-4307-80a7-fad4224922cb)
+   - Click continue.
+   - Select "Register for Nessus Essentials".
+   - You can skip the following step and fill in the activation code you received earlier via email.
+   - Create a username and password and then click "Submit". 
+
+
 
 
 
