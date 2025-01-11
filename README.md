@@ -39,7 +39,7 @@ Use platforms like VMWare or VirtualBox to install and run the virtual machines.
 1. Install Metasploit:
    - Open Terminal and type the following commands:
      ```
-     sudo apt-get update && apt-get upgrade -y
+     sudo apt-get update && apt-get upgrade 
      sudo apt install metasploit-framework
      ```
 
