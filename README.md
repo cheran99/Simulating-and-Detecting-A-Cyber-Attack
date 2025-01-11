@@ -77,7 +77,14 @@ Use platforms like VMWare or VirtualBox to install and run the virtual machines.
    - Click continue.
    - Select "Register for Nessus Essentials".
    - You can skip the following step and fill in the activation code you received earlier via email.
-   - Create a username and password and then click "Submit". 
+   - Create a username and password and then click "Submit". This will fully set up Nessus Essentials on the browser:
+     ![image](https://github.com/user-attachments/assets/afc6434d-fe0a-4a2c-9dbc-cf36bd51e128)
+
+#### Ubuntu VM:
+Install Splunk:
+- 
+
+     
 
 
 
