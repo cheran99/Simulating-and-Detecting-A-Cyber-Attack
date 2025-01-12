@@ -82,7 +82,16 @@ Use platforms like VMWare or VirtualBox to install and run the virtual machines.
 
 #### Ubuntu VM:
 Install Splunk:
-- hjhnj
+- Go to the following link: <a href="https://www.splunk.com/en_us/download/splunk-enterprise.html">Download Splunk Enterprise</a>
+- Create your account.
+- Verify your email to activate your Splunk account.
+- The verification link will take you to the download page where you must choose a platform to download Splunk.
+- Choose Linux as the platform since it is being downloaded on the Ubuntu VM and you can choose any installation package.
+- Open Terminal in the Ubuntu VM and paste and run the wget command for the selected installation package. 
+
+
+## References
+- <a href="https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm">Install Tenable Nessus on Linux</a>  
 
      
 
