@@ -92,11 +92,16 @@ Install Splunk:
 - Install Splunk using the command:
 
   `sudo dpkg -i splunk-9.4.0-6b4ebe426ca6-linux-amd64.deb`
+- To check the status of the installation, run the following command:
+
+  `sudo dpkg --status splunk`
+- 
 
 
 
 ## References
-- <a href="https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm">Install Tenable Nessus on Linux</a>  
+- <a href="https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm">Install Tenable Nessus on Linux</a>
+- <a href="https://docs.splunk.com/Documentation/Splunk/9.4.0/Installation/InstallonLinux">Install Splunk on Linux</a> 
 
      
 
