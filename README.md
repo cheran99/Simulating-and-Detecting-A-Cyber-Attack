@@ -89,7 +89,9 @@ Install Splunk:
 - Choose Linux as the platform since it is being downloaded on the Ubuntu VM and you can choose the .deb installation package.
 - Open Terminal in the Ubuntu VM and paste and run the wget command to download the selected installation package:
   ![image](https://github.com/user-attachments/assets/7e333cc9-6bc7-41f0-8b32-0f57be9e25b3)
-- 
+- Install Splunk using the command:
+
+  `sudo dpkg -i splunk-9.4.0-6b4ebe426ca6-linux-amd64.deb`
 
 
 
