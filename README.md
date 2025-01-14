@@ -95,13 +95,24 @@ Install Splunk:
 - To check the status of the installation, run the following command:
 
   `sudo dpkg --status splunk`
-- 
+- Next, start Splunk using the following command:
+
+  `sudo /opt/splunk/bin/splunk start`
+- Accept the license and create an administrator username and password:
+  ![image](https://github.com/user-attachments/assets/0db65ea8-7186-4372-a5e1-09f89b6c681f)
+- Once you have successfully created a username and password, you will be provided with the Splunk web interface:
+  ![image](https://github.com/user-attachments/assets/d26d2b33-d5c5-4d25-8c0c-a74ec02d3c3a)
+- Open the link on the web browser in the Ubuntu VM. This will take you to the login page where you will be asked to use the credentials that you created earlier:
+  ![image](https://github.com/user-attachments/assets/1df131f9-9885-4e75-8002-ef3b25ca8b4a)
+
+
 
 
 
 ## References
 - <a href="https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm">Install Tenable Nessus on Linux</a>
-- <a href="https://docs.splunk.com/Documentation/Splunk/9.4.0/Installation/InstallonLinux">Install Splunk on Linux</a> 
+- <a href="https://docs.splunk.com/Documentation/Splunk/9.4.0/Installation/InstallonLinux">Install Splunk on Linux</a>
+- <a href="https://medium.com/@dannyopara/installing-splunk-enterprise-on-ubuntu-step-by-step-guide-b545982038c3">Installing Splunk Enterprise on Ubuntu: Step-by-Step Guide</a>
 
      
 
