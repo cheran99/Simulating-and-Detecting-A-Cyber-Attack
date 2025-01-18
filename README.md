@@ -156,6 +156,7 @@ Install Splunk:
 - <a href="https://www.hackthebox.com/blog/metasploit-tutorial">A step-by-step guide to the Metasploit Framework</a>
 - <a href="https://www.varonis.com/blog/what-is-metasploit">What is Metasploit? The Beginner's Guide</a>
 - <a href="https://www.eccouncil.org/cybersecurity-exchange/penetration-testing/metasploit-framework-for-penetration-testing/">How To Use The Metasploit Framework For Penetration Testing</a>
+- <a href="https://youtu.be/QynUOJanNqo?si=Oyjl9fNDvtPMmJ_3">Metasploit Tutorial for Beginners</a>
 
 
      
